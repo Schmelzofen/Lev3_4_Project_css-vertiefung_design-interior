@@ -226,3 +226,57 @@ aside ul li{
     width: 30vw;
     height: 3.5vh;
 }
+
+@media(max-width: 600px){
+    ul{
+        font-size: 2vh;
+    }
+    section:nth-of-type(1){
+        position:static;
+    }
+    section:nth-of-type(1) nav ul li{
+        padding-left: 5%;
+    }
+    #logo{
+        width: 50%;
+    }
+    header div div:nth-of-type(1){
+        width: 70%;
+        padding-left: 5%;
+    }
+    main article div:nth-of-type(1){
+        justify-content:center;
+    }
+    main article div:nth-of-type(2) p{
+        font-size: 2vh;
+    }
+    iframe{
+        width: 300px;
+        height: 170px;
+    }
+    main section:nth-of-type(2) p {
+        width: 70%;
+    }
+    #footerdivone p{
+        font-size: 2vh;
+        width: 120%;
+    }
+    #footerdivone h2{
+        width: 120%;
+        padding: 0 0 3% 0;
+    }
+    #footerdivtwo{
+        flex-direction: column;
+        justify-content:space-evenly;
+    }
+    aside{
+        font-size: 2vh;
+        justify-content: flex-start;
+    }
+    aside p:nth-of-type(1){
+        padding: 0 10% 0 4%;
+    }
+    aside p:nth-of-type(2){
+        padding-right: 10%;
+    }
+}
