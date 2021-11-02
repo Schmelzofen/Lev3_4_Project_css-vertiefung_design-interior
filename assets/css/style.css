@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* 
+font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif;
+Farbe: #2e2e2e / #fff / #000 / #1d2c2f 
+https://www.youtube.com/watch?v=GI71fXmRrLM
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header div:nth-of-type(1){
+    justify-content: space-between;
+    height: 90vh;
+}
+
+header div div:nth-of-type(1){
+    display: flex;
+    width: 35%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header div div h1{
+    font-size: 10vh;
+    padding: 0% 0 0 0;
+    font-family: Lora, serif;
+}
+
+header div div{
+    padding: 0 0 0% 10%;
+}
+
+header div div p{
+    font-family: Work Sans;
+}
+
+
+/* MAIN */
+
+section:nth-of-type(1){
+    background-color: #2e2e2e;
+    color: #fff;
+    position: sticky;
+    top: -1px;
+    margin: 0;
+}
+
+section:nth-of-type(1) nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+section:nth-of-type(1) nav ul{
+    list-style: none;
+    display: flex;
+    width: 65%;
+}
+
+section:nth-of-type(1) span{
+    padding-left: 1%;
+}
+
+section:nth-of-type(1) nav ul li{
+    padding: 1% 7%;
+    font-family: Work Sans;
+}
+
+main article{
+    background-color: #2e2e2e;
+    color: #fff;
+    font-family: Lora;
+    height: 75vh;
+    padding: 0% 0 0% 1%;
+    align-items: center;
+}
+
+main article div:nth-of-type(1){
+    background: url(../img/features1.jpg) center/cover no-repeat;
+    width: 70%;
+    padding: 10% 0 20% 0;
+}
+
+main article div:nth-of-type(2){
+    padding: 0 0 0% 1%;
+    flex-direction: column;
+    align-items:;
+}
+
+main article div:nth-of-type(2) h2{
+    text-align: center;
+    padding: 0 0 3% 0;
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+main article div:nth-of-type(2) p{
+    line-height: 30px;
+    padding: 2% 2%;
+}
+
+main section:nth-of-type(2){
+    text-align: center;
+}
+
+main section:nth-of-type(2) h2{
+    font-family: Lora;
+    padding: 5% 0 2% 0;
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+main section:nth-of-type(2) p{
+    font-family: Work Sans;
+    padding: 0 0 5% 0;
+    word-spacing: 0.2cm;
+    width: 42%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 2.7vh;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+main section:nth-of-type(2) div{
+    display: flex;
+    justify-content: space-around;
+}
+
+main section:nth-of-type(2) div figure img{
+    width: 75%;
+}
+
+main section:nth-of-type(2) div figure figcaption{
+    color: grey;
+    font-family: Work Sans;
+}
+
+main section:nth-of-type(2) iframe{
+    margin: 5% 0;
+}
+
+/* FOOTER */
+
+footer{
+    color: #fff;
+}
+
+footer article{
+    background-color: #2e2e2e;
+    padding: 10% 0;
+    justify-content: space-around;
+}
+
+footer article h2{
+    font-family: Lora;
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+footer article div:nth-of-type(1){
+    padding: 0 0 0 0%;
+}
+
+footer article div:nth-of-type(1) p{
+    /* width: 60%; */
+    word-spacing: 0.1cm;
+    line-height: 25px;
+    padding: 3% 0;
+    font-family: Work Sans;
+}
+
+footer article div:nth-of-type(2){
+    align-items: flex-start;
+}
+
+aside{
+    background-color: #1d2c2f;
+    display: flex;
+    padding: 2% 0%;
+    justify-content: space-around;
+    font-family: Lora;
+}
+
+aside ul{
+    list-style-type: none;
+    display: flex;
+}
+
+aside ul li{
+    padding: 0 10%;
+}
+
+/* Classes and IDs */
+
+.flex{
+    display: flex;
+}
+
+.footerflex{
+    display: flex;
+}
+
+#headerPic{
+    background: url(../img/design-interior-1.jpg) center/cover no-repeat;
+    width: 60%;
+}
+
+#footerdivone{
+    flex-direction: column;
+    width: 30%;
+    padding: 0% 0;
+}
+
+#footerdivtwo{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.label{
+    width: 30vw;
+    height: 3.5vh;
+}
