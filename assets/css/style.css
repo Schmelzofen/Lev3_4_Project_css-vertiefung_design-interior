@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=GI71fXmRrLM
 
 header div:nth-of-type(1){
     justify-content: space-between;
-    height: 90vh;
+    height: 100vh;
 }
 
 header div div:nth-of-type(1){
